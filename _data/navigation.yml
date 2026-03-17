@@ -1,5 +1,7 @@
 # Top navigation (header buttons). Order here = order on site.
 main:
+  - title: "About"
+    url: /
   - title: "Blog"
     url: /year-archive/
   - title: "CV"
