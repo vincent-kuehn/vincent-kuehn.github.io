@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Vincent Kuehn"
+title                    : "Vincent Kühn"
 title_separator          : "-"
-name                     : &name "Vincent Kuehn"
-description              : &description "Vincent Kuehn's personal website"
+name                     : &name "Vincent Kühn"
+description              : &description "Vincent Kühn's personal website"
 url                      : https://vincent-kuehn.github.io
 baseurl                  : ""
 repository               : "vincent-kuehn/vincent-kuehn.github.io"
@@ -23,7 +23,7 @@ repository               : "vincent-kuehn/vincent-kuehn.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Vincent Kuehn"
+  name             : "Vincent Kühn"
   pronouns         :  
   bio              : "Personal site and portfolio."
   location         : 
