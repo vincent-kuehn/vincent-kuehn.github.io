@@ -1,0 +1,10 @@
+# Top navigation (header buttons). Order here = order on site.
+main:
+  - title: "About"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
+  - title: "GitHub"
+    url: https://github.com/vincent-kuehn
