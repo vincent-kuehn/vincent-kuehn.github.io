@@ -7,6 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-Welcome. I'm Vincent Kühn.
-
-This is my personal website. You can use the links above to see publications, my CV, or find me on GitHub.
+Coming soon. 🚧
