@@ -1,6 +1,13 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
+<style>
+/* Mobile: only site title + menu button in header; nav links in dropdown */
+@media (max-width: 768px) {
+  .greedy-nav .visible-links > li:not(.persist) { display: none !important; }
+  .greedy-nav button { display: block !important; visibility: visible !important; }
+}
+</style>
 
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>

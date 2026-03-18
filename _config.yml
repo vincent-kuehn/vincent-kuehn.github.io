@@ -22,19 +22,20 @@ repository               : "vincent-kuehn/vincent-kuehn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Vincent Kühn"
   pronouns         :  
   bio              :
   location         : 
   employer         : 
-  uri              : 
+  uri              : "https://vincent-kuehn.github.io/"
   email            : 
+  phone            : 
 
   # Academic websites
   academia         : 
   arxiv            : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.de/citations?hl=de&user=A3_ZA84AAAAJ" 
   inspire-hep      : 
   impactstory      : 
   orcid            : 
