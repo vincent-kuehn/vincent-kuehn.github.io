@@ -48,13 +48,8 @@
     }
   }
 
-  $btn.addEventListener("click", function () {
-    if (isMobile()) {
-      $hlinks.classList.toggle("hidden");
-      this.classList.toggle("close");
-      this.setAttribute("aria-expanded", $hlinks.classList.contains("hidden") ? "false" : "true");
-    }
-  });
+  /* Don't add our own click handler - the theme's greedy-nav already toggles .hidden on
+     .hidden-links. A second handler would double-toggle and leave the menu closed. */
 
   window.addEventListener("resize", function () {
     if (isMobile()) {
