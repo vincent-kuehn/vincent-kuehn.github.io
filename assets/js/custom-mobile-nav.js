@@ -48,8 +48,16 @@
     }
   }
 
-  /* Don't add our own click handler - the theme's greedy-nav already toggles .hidden on
-     .hidden-links. A second handler would double-toggle and leave the menu closed. */
+  /* On mobile we handle the click ourselves so the menu reliably opens. Use capture so we
+     run before the theme's handler and prevent it from double-toggling or re-hiding. */
+  $btn.addEventListener("click", function (e) {
+    if (isMobile()) {
+      e.stopImmediatePropagation();
+      $hlinks.classList.toggle("hidden");
+      this.classList.toggle("close");
+      this.setAttribute("aria-expanded", $hlinks.classList.contains("hidden") ? "false" : "true");
+    }
+  }, true);
 
   window.addEventListener("resize", function () {
     if (isMobile()) {
