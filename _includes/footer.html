@@ -1,13 +1,10 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.author.uri or site.author.linkedin or site.author.googlescholar or site.atom_feed.hide != true %}
+{% if site.author.github or site.author.bitbucket or site.author.linkedin or site.author.googlescholar or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.uri %}
-      <li><a href="{{ site.author.uri }}"><i class="fas fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
     {% endif %}
     {% if site.author.github %}
       <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
