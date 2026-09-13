@@ -36,6 +36,9 @@
       {% if author.phone %}
         <li><a href="tel:{{ author.phone | replace: ' ', '' }}"><i class="fas fa-fw fa-phone icon-pad-right" aria-hidden="true"></i>{{ author.phone }}</a></li>
       {% endif %}
+      {% if author.washu %}
+        <li><a href="{{ author.washu }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>Washington University in St. Louis</a></li>
+      {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
