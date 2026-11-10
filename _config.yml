@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Vincent Kühn"
 title_separator          : "-"
 name                     : &name "Vincent Kühn"
-description              : &description "Vincent Kühn's personal website"
+description              : &description "Vincent Kühn – PhD student in Economics at Washington University in St. Louis. Public economics and political economy."
 url                      : https://vincent-kuehn.github.io
 baseurl                  : ""
 repository               : "vincent-kuehn/vincent-kuehn.github.io"
@@ -26,17 +26,18 @@ author:
   name             : "Vincent Kühn"
   pronouns         :  
   bio              :
-  location         : 
-  employer         : 
+  location         : "St. Louis, MO"
+  employer         : "Washington University in St. Louis"
   uri              : "https://vincent-kuehn.github.io/"
-  email            :
+  email            : "kuehn@wustl.edu"
   phone            :
-  washu            : "https://economics.washu.edu/people/vincent-kuehn"
+  washu            : "https://economics.washu.edu/people/vincent-kuhn"
 
   # Academic websites
   academia         : 
   arxiv            : 
-  googlescholar    : "https://scholar.google.com/citations?user=A3_ZA84AAAAJ" 
+  googlescholar    : "https://scholar.google.com/citations?user=A3_ZA84AAAAJ"
+  repec            : "https://ideas.repec.org/e/pkx13.html" 
   inspire-hep      : 
   impactstory      : 
   orcid            : 
@@ -126,7 +127,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -180,16 +181,21 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - CONTRIBUTING.md
+  - docker-compose.yaml
   - Dockerfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
+  - README.md
   - README
   - tmp
   - vendor
