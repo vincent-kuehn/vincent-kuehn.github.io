@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Economics at the Washington University in St. Louis.
+I am a PhD student in Economics at Washington University in St. Louis.
 
-I am broadly interested in questions from public economics and in using modern causal inference methods to evaluate the effectiveness of public policies.
+I am broadly interested in public economics and political economy, and in using modern causal inference methods to evaluate the effectiveness of public policies.
